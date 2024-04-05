@@ -23,7 +23,7 @@ export const HoleHeader = ({header, Navbar}) => {
        <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to="/Home">{Navbar.op1}</NavLink>
        <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to="/2"> {Navbar.op2}</NavLink>
 
-       <a href="https://melodic-starlight-6a26e2.netlify.app/Home">Of Empleo y Agencias Territoriales</a>
+       <a href="https://melodic-starlight-6a26e2.netlify.app">Of Empleo y Agencias Territoriales</a>
 
        <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to=""> {Navbar.op4}</NavLink>
    </div>
