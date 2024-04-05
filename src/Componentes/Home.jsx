@@ -36,7 +36,7 @@ export const Home = () => {
       agenciasTerrOficinas={agenciasTerrOficinas}
       footer={footer}
       />}/>
-      <Route  path='/2' element={<InstitucionesDeFormacion/>  }/>
+      <Route  path='/Instituciones de Formacion' element={<InstitucionesDeFormacion/>  }/>
     </Routes>
       <Footer footer={footer}/>
   </BrowserRouter>
