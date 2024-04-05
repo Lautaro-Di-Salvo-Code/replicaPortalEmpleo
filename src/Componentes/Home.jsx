@@ -27,7 +27,7 @@ export const Home = () => {
    <>
   <BrowserRouter>
     <HoleHeader header={header} Navbar={Navbar}/>
-
+    {/* un cambio para corroborar enlace con repositorio */}
     <Routes>
     <Route  path="/" element={<Body
       infoHeaderHome={infoHeaderHome}
