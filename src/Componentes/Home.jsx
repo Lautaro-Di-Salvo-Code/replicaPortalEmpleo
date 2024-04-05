@@ -5,6 +5,8 @@ import {BrowserRouter,Routes, Route, Navigate } from "react-router-dom"
 import { Body } from './HomeHijos/Body.jsx'
 import { InstitucionesDeFormacion } from './InstitucionesDeFormacion.jsx'
 import { Footer } from './Fotter.jsx'
+import { Contacto } from './Contacto.jsx'
+
 
 
 export const Home = () => {
@@ -39,8 +41,8 @@ export const Home = () => {
       footer={footer}
       />}/>
       <Route  path='/Instituciones de Formacion' element={<InstitucionesDeFormacion/>  }/>
-      <Route  path='/Contacto' element={<h1>Contacto</h1>   }/>
-      <Route  path='*' element={<Navigate to="/"/>  }/>
+      <Route  path='/Contacto' element={<Contacto/>   }/>
+      <Route  path='/Contacto' element={<Navigate to="/"/>  }/>
     </Routes>
       <Footer footer={footer}/>
   </BrowserRouter>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0; }
 
@@ -48,6 +49,10 @@ header {
     justify-content: space-between;
     height: 10vh;
     align-items: center; }
+    @media screen and (min-width: 500px) {
+      .lightblueNavbar nav {
+        display: flex;
+        justify-content: center; } }
     .lightblueNavbar nav .navlinks {
       display: flex;
       justify-content: space-between;
@@ -67,21 +72,6 @@ header {
 .LinksNav {
   color: #232D4F;
   border-radius: 1rem; }
-
-.cta-button {
-  color: #fff;
-  border: none;
-  background-color: #d9040400;
-  font-family: bold;
-  border-radius: 5px;
-  height: fit-content;
-  padding: 1rem 3rem;
-  border: solid 2px #fff;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease; }
-  .cta-button:hover {
-    background-color: #003de5; }
 
 .carrusel {
   width: 100%;
@@ -143,6 +133,21 @@ header {
     transform: translateX(-100%); }
   50% {
     transform: translateX(-200%); } }
+.cta-button {
+  color: #fff;
+  border: none;
+  background-color: #d9040400;
+  font-family: bold;
+  border-radius: 5px;
+  height: fit-content;
+  padding: 1rem 3rem;
+  border: solid 2px #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease; }
+  .cta-button:hover {
+    background-color: #003de5; }
+
 .c-button {
   color: #000;
   font-weight: 700;
@@ -251,6 +256,10 @@ header {
     justify-content: space-between;
     height: 10vh;
     align-items: center; }
+    @media screen and (min-width: 500px) {
+      .lightblueNavbar nav {
+        display: flex;
+        justify-content: center; } }
     .lightblueNavbar nav .navlinks {
       display: flex;
       justify-content: space-between;
@@ -270,21 +279,6 @@ header {
 .LinksNav {
   color: #232D4F;
   border-radius: 1rem; }
-
-.cta-button {
-  color: #fff;
-  border: none;
-  background-color: #d9040400;
-  font-family: bold;
-  border-radius: 5px;
-  height: fit-content;
-  padding: 1rem 3rem;
-  border: solid 2px #fff;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease; }
-  .cta-button:hover {
-    background-color: #003de5; }
 
 .carrusel {
   width: 100%;
@@ -346,6 +340,21 @@ header {
     transform: translateX(-100%); }
   50% {
     transform: translateX(-200%); } }
+.cta-button {
+  color: #fff;
+  border: none;
+  background-color: #d9040400;
+  font-family: bold;
+  border-radius: 5px;
+  height: fit-content;
+  padding: 1rem 3rem;
+  border: solid 2px #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease; }
+  .cta-button:hover {
+    background-color: #003de5; }
+
 .c-button {
   color: #000;
   font-weight: 700;
@@ -628,6 +637,10 @@ header {
     justify-content: space-between;
     height: 10vh;
     align-items: center; }
+    @media screen and (min-width: 500px) {
+      .lightblueNavbar nav {
+        display: flex;
+        justify-content: center; } }
     .lightblueNavbar nav .navlinks {
       display: flex;
       justify-content: space-between;
@@ -647,21 +660,6 @@ header {
 .LinksNav {
   color: #232D4F;
   border-radius: 1rem; }
-
-.cta-button {
-  color: #fff;
-  border: none;
-  background-color: #d9040400;
-  font-family: bold;
-  border-radius: 5px;
-  height: fit-content;
-  padding: 1rem 3rem;
-  border: solid 2px #fff;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease; }
-  .cta-button:hover {
-    background-color: #003de5; }
 
 .carrusel {
   width: 100%;
@@ -723,6 +721,21 @@ header {
     transform: translateX(-100%); }
   50% {
     transform: translateX(-200%); } }
+.cta-button {
+  color: #fff;
+  border: none;
+  background-color: #d9040400;
+  font-family: bold;
+  border-radius: 5px;
+  height: fit-content;
+  padding: 1rem 3rem;
+  border: solid 2px #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease; }
+  .cta-button:hover {
+    background-color: #003de5; }
+
 .c-button {
   color: #000;
   font-weight: 700;
@@ -831,6 +844,10 @@ header {
     justify-content: space-between;
     height: 10vh;
     align-items: center; }
+    @media screen and (min-width: 500px) {
+      .lightblueNavbar nav {
+        display: flex;
+        justify-content: center; } }
     .lightblueNavbar nav .navlinks {
       display: flex;
       justify-content: space-between;
@@ -850,21 +867,6 @@ header {
 .LinksNav {
   color: #232D4F;
   border-radius: 1rem; }
-
-.cta-button {
-  color: #fff;
-  border: none;
-  background-color: #d9040400;
-  font-family: bold;
-  border-radius: 5px;
-  height: fit-content;
-  padding: 1rem 3rem;
-  border: solid 2px #fff;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease; }
-  .cta-button:hover {
-    background-color: #003de5; }
 
 .carrusel {
   width: 100%;
@@ -926,6 +928,21 @@ header {
     transform: translateX(-100%); }
   50% {
     transform: translateX(-200%); } }
+.cta-button {
+  color: #fff;
+  border: none;
+  background-color: #d9040400;
+  font-family: bold;
+  border-radius: 5px;
+  height: fit-content;
+  padding: 1rem 3rem;
+  border: solid 2px #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease; }
+  .cta-button:hover {
+    background-color: #003de5; }
+
 .c-button {
   color: #000;
   font-weight: 700;
@@ -1203,6 +1220,25 @@ header {
   padding: 11px;
   margin: 10px;
   text-align: center; }
+
+.selector {
+  margin: 4rem auto;
+  /* Margen de 4rem en la parte superior e inferior y centrado horizontalmente */
+  max-width: 953px;
+  /* Máximo ancho de 953px */ }
+
+.selector summary {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  padding: 10px; }
+
+.selector p {
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 0; }
+
+.selector[open] summary {
+  background-color: #e0e0e0; }
 
 img {
   height: auto;

@@ -2,11 +2,11 @@ $radius: 1rem ;
 $maximoAncho:983px;
 $blueHeaderFooter: #232D4F;
 $navBarButtontutorial:#0072BB ;
+@import "./CodigoResponsivoHeader.scss";
 *{
     margin: 0;
-    
 }
-
+// Esto es lo mas arriba de la pagina
 .logoimg{
     height: auto;
     cursor: pointer;
@@ -15,13 +15,10 @@ $navBarButtontutorial:#0072BB ;
     transform: scale(1, 1);
     &:hover{
         transition: .6s ease-in-out;
-
         transform: scale(1.2, 1.2);
     }
     &:not(:hover){
-       
         transition: .6s ease-in-out;
-
     }
 }
 // header logo
@@ -68,7 +65,12 @@ header {
           justify-content: space-between;
           height: 10vh;
           align-items: center;
-          
+
+          @include Celular{
+            display: flex;
+            justify-content: center;
+
+          }
           .navlinks{
               
               display: flex;
@@ -78,11 +80,9 @@ header {
           }
           
         }
-        
-        
         .logo {
           font-size: 1.5rem;
-        }
+  }
         
 .nav-links >* {
   color: #fff;
@@ -95,34 +95,12 @@ header {
 }
 .LinksNav{
   color: #232D4F;
-  // text-decoration: 1px solid #fff;
-  
-  // outline:  #fff solid 1px;
-  
   border-radius: $radius;
 }
-  .cta-button {
-    // background-color: #ff6600;
-    color: #fff;
-    border: none;
-    background-color: #d9040400;
-    // padding: 10px 20px;
-    font-family: bold;
-    border-radius: 5px;
-    height: fit-content;
-    padding: 1rem 3rem;
-    border: solid 2px #fff;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-    &:hover{
-        background-color: #003de5;
-
-    }
-  }
 
 
-//   carrusel header
+
+//Carrusel header
 .carrusel  {
     width: 100%;
     overflow: hidden;
@@ -204,6 +182,24 @@ header {
 
   
 //   boton con animacion
+// Estilos de boton con animacion
+.cta-button {
+  color: #fff;
+  border: none;
+  background-color: #d9040400;
+  font-family: bold;
+  border-radius: 5px;
+  height: fit-content;
+  padding: 1rem 3rem;
+  border: solid 2px #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  &:hover{
+      background-color: #003de5;
+
+  }
+}
 .c-button {
     color: #000;
     font-weight: 700;
@@ -272,4 +268,3 @@ header {
     transform: scale(1.4) translateY(0) translateZ(0);
   }
 
-  
