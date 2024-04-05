@@ -29,7 +29,7 @@ export const Home = () => {
     <HoleHeader header={header} Navbar={Navbar}/>
 
     <Routes>
-    <Route  path="/Home" element={<Body
+    <Route  path="/" element={<Body
       infoHeaderHome={infoHeaderHome}
       CiudadanoEmpleador={CiudadanoEmpleador}
       capacitacionTrabajo={capacitacionTrabajo}
