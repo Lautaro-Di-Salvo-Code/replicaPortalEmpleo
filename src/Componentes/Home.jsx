@@ -1,13 +1,15 @@
 import React from 'react'
 import { HoleHeader } from './HomeHijos/HoleHeadear.jsx'
 import { ObjetoG } from '../ObjetoGeneral.jsx'
-import {BrowserRouter,Routes, Route } from "react-router-dom"
+import {BrowserRouter,Routes, Route, Navigate } from "react-router-dom"
 import { Body } from './HomeHijos/Body.jsx'
 import { InstitucionesDeFormacion } from './InstitucionesDeFormacion.jsx'
 import { Footer } from './Fotter.jsx'
 
 
 export const Home = () => {
+
+  
 
      const {
       header ,
@@ -37,6 +39,7 @@ export const Home = () => {
       footer={footer}
       />}/>
       <Route  path='/Instituciones de Formacion' element={<InstitucionesDeFormacion/>  }/>
+      <Route  path='*' element={<Navigate to="/Home"/>  }/>
     </Routes>
       <Footer footer={footer}/>
   </BrowserRouter>
