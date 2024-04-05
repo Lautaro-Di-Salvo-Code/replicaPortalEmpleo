@@ -39,6 +39,7 @@ export const Home = () => {
       footer={footer}
       />}/>
       <Route  path='/Instituciones de Formacion' element={<InstitucionesDeFormacion/>  }/>
+      <Route  path='/Contacto' element={<h1>Contacto</h1>   }/>
       <Route  path='*' element={<Navigate to="/"/>  }/>
     </Routes>
       <Footer footer={footer}/>

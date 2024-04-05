@@ -25,7 +25,7 @@ export const HoleHeader = ({header, Navbar}) => {
 
        <a href="https://melodic-starlight-6a26e2.netlify.app">Of Empleo y Agencias Territoriales</a>
 
-       <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to=""> {Navbar.op4}</NavLink>
+       <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to="/Contacto"> {Navbar.op4}</NavLink>
    </div>
    
    {/* todo el boton de ingresar con animacion */}

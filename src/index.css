@@ -59,14 +59,13 @@ header {
 .nav-links > * {
   color: #fff;
   text-decoration: none;
-  margin-right: 5px;
+  margin-right: 1rem;
   padding: 3px; }
+  .nav-links > *:hover {
+    color: #232D4F; }
 
-@media screen and (max-width: 600px) {
-  .navlinks {
-    display: none; } }
 .LinksNav {
-  outline: #fff solid 1px;
+  color: #232D4F;
   border-radius: 1rem; }
 
 .cta-button {
@@ -263,14 +262,13 @@ header {
 .nav-links > * {
   color: #fff;
   text-decoration: none;
-  margin-right: 5px;
+  margin-right: 1rem;
   padding: 3px; }
+  .nav-links > *:hover {
+    color: #232D4F; }
 
-@media screen and (max-width: 600px) {
-  .navlinks {
-    display: none; } }
 .LinksNav {
-  outline: #fff solid 1px;
+  color: #232D4F;
   border-radius: 1rem; }
 
 .cta-button {
@@ -641,14 +639,13 @@ header {
 .nav-links > * {
   color: #fff;
   text-decoration: none;
-  margin-right: 5px;
+  margin-right: 1rem;
   padding: 3px; }
+  .nav-links > *:hover {
+    color: #232D4F; }
 
-@media screen and (max-width: 600px) {
-  .navlinks {
-    display: none; } }
 .LinksNav {
-  outline: #fff solid 1px;
+  color: #232D4F;
   border-radius: 1rem; }
 
 .cta-button {
@@ -845,14 +842,13 @@ header {
 .nav-links > * {
   color: #fff;
   text-decoration: none;
-  margin-right: 5px;
+  margin-right: 1rem;
   padding: 3px; }
+  .nav-links > *:hover {
+    color: #232D4F; }
 
-@media screen and (max-width: 600px) {
-  .navlinks {
-    display: none; } }
 .LinksNav {
-  outline: #fff solid 1px;
+  color: #232D4F;
   border-radius: 1rem; }
 
 .cta-button {
